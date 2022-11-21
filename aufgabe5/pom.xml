@@ -51,6 +51,9 @@
 
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <javadocExecutable>/usr/lib/jvm/java-19-openjdk/bin/javadoc</javadocExecutable>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-report-plugin</artifactId>
