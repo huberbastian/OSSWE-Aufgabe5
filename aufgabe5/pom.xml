@@ -14,7 +14,6 @@
   </properties>
 
   <dependencies>
-
     <!-- HFU repo not working -->
     <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
@@ -23,8 +22,6 @@
         <version>4.12</version>
         <scope>test</scope>
     </dependency>
-
-
     <!-- für das Praktikum "Integrationstest"-->
     <!--dependency>
       <groupId>org.easymock</groupId>
@@ -48,20 +45,17 @@
       <plugin>
         <artifactId>maven-surefire-report-plugin</artifactId>
       </plugin>
-
       <!-- für das Praktikum "Integrationstest"-->
       <!--plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.6</version>
       </plugin-->
-
     </plugins>
   </reporting>
 
   <build>
     <plugins>
-
       <!-- für das Praktikum "Build Management"-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -75,7 +69,6 @@
           </archive>
         </configuration>
       </plugin>
-
       <!-- für das Praktikum "Integrationstest"-->
       <!--plugin>
         <groupId>org.jacoco</groupId>
@@ -155,7 +148,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
   <!-- could not connect -->
   <!--repositories>
     <repository>
